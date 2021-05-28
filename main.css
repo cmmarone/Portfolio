@@ -1,0 +1,187 @@
+body{
+    background: linear-gradient(180deg, rgb(221, 217, 248) 0%, rgb(142, 193, 252) 57%, rgb(53, 129, 252) 100%);
+}
+
+.jumbotron-fluid{
+    background-image: url("assets/header2.jpg");
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.display-3{
+    font-size: 600%;
+    color: #63c3ff;
+    text-shadow: 4px 4px 4px #000;
+}
+
+.my-2{
+    color: #63c3ff;
+    border-top: 4px double #000;
+	text-align: center;
+}
+
+.lead{
+    font-size: 350%;
+    color: #63c3ff;
+    text-shadow: 4px 4px 4px #000;
+}
+
+.bg-primary{
+    background: black;
+    background: linear-gradient(270deg, rgb(0, 0, 0) 0%, rgb(6, 12, 75) 57%, rgb(0, 0, 0) 100%);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.btn-lg{
+    border: 1px solid black;
+    box-shadow: rgba(255,255,255,0.6) 2px 2px 2px;
+}
+
+li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.modal-content{
+    width: 1000px;
+    height: 500px;
+}
+
+.modal-content2{
+    width: 826px;
+    height: 1270px;
+}
+
+.pic{
+    max-height: 390px;
+    padding: 6%;
+}
+
+.projectsTitle{
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-size: 56px;
+    text-align: center;
+    color: #63c3ff;
+    background-color:rgba(0, 0, 0, 0.9);
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.card{
+    margin: 5% 5%;
+    height: 400px;
+    width: 85%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.card-body{
+    background-size: cover;
+    opacity: .5;
+    transition: 0.6s;
+}
+
+.card-body:hover{
+    opacity: 1;
+    transition: 0.6s;
+}
+
+.card-title{
+    font-size: 22pt;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 3px;
+    border: 2px solid white;
+}
+
+.card-text{
+    font-size: 14pt;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9); 
+    border: 2px solid white;
+    position: relative;
+    top: 6px;
+}
+
+.card-footer
+{
+    background-color: black;
+    color: white;
+}
+
+
+.card1{
+    background-image: url("assets/monthleyPreview.png");
+}
+.card2{
+    background-image: url("assets/oneNewsPreview.png");
+}
+.card3{
+    background-image: url("assets/consoleChallengesPreview.png");
+}
+.card4{
+    background-image: url("assets/creaturePreview.png");
+}
+
+
+
+
+/* Contact Form-------------------------------------------------> */
+
+h1 {
+    font-weight: 500;
+    color:rgb(17, 11, 131)
+}
+
+input, textarea { 
+    outline: none;
+}
+
+.contact-form {
+    padding: 20px;
+    margin: 4%;
+    width: 80%;
+    border: 1px solid grey;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 10px;
+    background: #dcf0fa;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: none;
+    border-bottom: 4px solid #2d4670;
+    background: #415b88; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/* <-------------------------------------------------Contact Form */
+
+.SMicons{
+    max-height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}

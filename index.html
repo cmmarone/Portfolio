@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Collin, Marone, software, developer">
+    <meta name="description" content="Portfolio of a software developer">
+    <title>Collin Marone - Software Developer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <meta name="author" content="Collin Marone">
+    <!--delete me!!!!!-->
+    <meta http-equiv="refresh" content="10">
+    <!--delete me!!!!!-->
+</head>
+
+<body>
+    <!--------------------------------------------------------->
+    <!--HEADER------------------------------------------------->
+    <!--------------------------------------------------------->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-3">Collin Marone</h1>
+            <hr class="my-2">
+            <p class="lead">Software Developer</p>
+        </div>
+    </div>
+
+    <!--------------------------------------------------------->
+    <!--NAV BAR------------------------------------------------>
+    <!--------------------------------------------------------->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+                <li class="nav-item">
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modelId">
+                        About Me
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-primary btn-lg">
+                        <a style="color: white; text-decoration: none;"
+                            href="https://www.linkedin.com/in/collin-marone/" target="_blank">LinkedIn</a>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-primary btn-lg">
+                        <a style="color: white; text-decoration: none;" href="https://github.com/cmmarone"
+                            target="_blank">GitHub</a>
+                    </button>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="dropdown-toggle btn btn-primary btn-lg" id="dropdownId" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">R&eacute;sum&eacute;</button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" data-toggle="modal" data-target="#modelId2">View</a>
+                        <a class="dropdown-item" href="assets/Collin-Marone-resume.docx"
+                            download="Collin-Marone-Resume">Download</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!--------------------------------------------------------->
+    <!--ABOUT ME----------------------------------------------->
+    <!--------------------------------------------------------->
+
+    <!-- Modal -->
+    <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">About Me</h5>
+                </div>
+                <div class="modal-body">
+                    <table class="about-table">
+                        <tr class="about-row">
+
+                            <td><img class="pic" src="assets/portfolioPic.jpg"></td>
+
+                            <td>
+                                <p>
+                                    I am a driven and detail-oriented software developer with a background truly unlike
+                                    any other, and if you were a coder who was also a fully-trained composer and
+                                    meat-cutter, you'd
+                                    say the same thing!
+                                    I learned .NET software development at Eleven Fifty Academy, and although I am at
+                                    the onset of my coding career, my ambition
+                                    is boundless and I look forward to broadening my development skils.
+                                </p>
+                                <p>
+                                    I am the father of an incredible daughter who, despite being 3-years old, teaches me
+                                    as much about life as I teach her. I am
+                                    passionate about music, delighted by poorly-made movies, and I'm powered by
+                                    determination
+                                    and pure grit.
+                                </p>
+                                <p>DISC: C/D</p>
+                            </td>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--------------------------------------------------------->
+    <!--RESUME------------------------------------------------->
+    <!--------------------------------------------------------->
+
+    <!-- Modal -->
+    <div class="modal fade" id="modelId2" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content modal-content2">
+                <div class="modal-header">
+                    <h5 class="modal-title">R&eacute;sum&eacute;</h5>
+                </div>
+                <div class="modal-body2">
+                    <embed src="assets/resume.pdf#toolbar=0" width="826px" height="1078px" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------------------------------------------->
+    <!--PROJECTS----------------------------------------------->
+    <!--------------------------------------------------------->
+
+    <h1 class="projectsTitle">PROJECTS</h1>
+
+
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-body card1">
+                    <span class="card-title">&nbsp;monTHLey&nbsp;</span>
+                    <br />
+                    <span class="card-text">&nbsp;a powerful personal budgeting app&nbsp;</span>
+                </div>
+                <div class="card-footer">
+                    ASP.NET Web MVC
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body card2">
+                    <span class="card-title">&nbsp;OneNews API&nbsp;</span>
+                    <br />
+                    <span class="card-text">&nbsp;helping news publishers reach their readers&nbsp;</span>
+                </div>
+                <div class="card-footer">
+                    ASP.NET Web API
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-body card3">
+                    <span class="card-title">&nbsp;Console Challenges&nbsp;</span>
+                    <br />
+                    <span class="card-text">&nbsp;mock business-facing apps&nbsp;</span>
+                </div>
+                <div class="card-footer">
+                    .NET Console Applications
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body card4">
+                    <span class="card-title">&nbsp;CSS Creature&nbsp;</span>
+                    <br />
+                    <span class="card-text">&nbsp;making a creature with only CSS&nbsp;</span>
+                </div>
+                <div class="card-footer">
+                    HTML/CSS
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------------------------------------------->
+    <!--CONTACT FORM------------------------------------------->
+    <!--------------------------------------------------------->
+    <div class="row">
+        <div class="col">
+            <form action="https://formspree.io/f/xwkaovrz" method="POST" class="contact-form">
+                <h1>Get In Touch</h1>
+                <input type="email" name="_replyto" placeholder="Your email">
+                <textarea name="message" placeholder="Your message" rows="8"></textarea>
+                <button type="submit" href="/">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <!--------------------------------------------------------->
+    <!--FOOTER------------------------------------------------->
+    <!--------------------------------------------------------->
+    <footer>
+        <nav class="navbar navbar-expand navbar-light bg-light">
+            <div class="nav navbar-nav">
+                <i class="fa fa-copyright" aria-hidden="true">
+                    <p>&copy;
+                        <script>document.write(new Date().getFullYear())</script>
+                        Collin Marone <br /> All Rights Reserved
+                    </p>
+                </i>
+                <a class="nav-item nav-link" href="https://www.linkedin.com/in/collin-marone/" target="_blank">
+                    <img class="SMicons" src="assets/LI-Logo.png"></a>
+                <a class="nav-item nav-link" href="https://github.com/cmmarone" target="_blank">
+                    <img class="SMicons" src="assets/github.png"></a>
+            </div>
+        </nav>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
