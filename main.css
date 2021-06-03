@@ -31,6 +31,20 @@ body{
     text-shadow: 4px 4px 4px #000;
 }
 
+@media only screen and (max-width: 600px){
+    .navbar-desktop{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .navbar-mobile{
+        display: none;
+        width: 100%;
+    }
+}
+
+
 .bg-primary{
     background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(6, 12, 75) 75%, rgb(0, 0, 0) 100%);
     border-top: 1px solid black;

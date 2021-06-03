@@ -18,9 +18,8 @@
 </head>
 
 <body>
-    <!--------------------------------------------------------->
     <!--HEADER------------------------------------------------->
-    <!--------------------------------------------------------->
+    <!------------------------------------------------------>
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-3">Collin Marone</h1>
@@ -29,10 +28,9 @@
         </div>
     </div>
 
-    <!--------------------------------------------------------->
-    <!--NAV BAR------------------------------------------------>
-    <!--------------------------------------------------------->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+    <!--NAV BAR-(desktop)-------------------------------------->
+    <!------------------------------------------------------>
+    <nav class="navbar-desktop navbar navbar-expand-sm navbar-dark bg-primary">
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 
@@ -57,7 +55,7 @@
                     <button class="dropdown-toggle btn btn-primary btn-lg" id="dropdownId" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">R&eacute;sum&eacute;</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="dropdown-item" data-toggle="modal" data-target="#modelId2">View</a>
+                        <a class="dropdown-item" data-toggle="modal" data-target="#modelId2" href="assets/resume.pdf">View</a>
                         <a class="dropdown-item" href="assets/Collin-Marone-resume.docx"
                             download="Collin-Marone-Resume">Download</a>
                     </div>
@@ -66,10 +64,42 @@
         </div>
     </nav>
 
+    <!--NAV BAR-(mobile)--------------------------------------->
+    <!------------------------------------------------------>
+        <div class="navbar-mobile navbar-collapse bg-primary" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <button type="button" class="btn btn-primary btn-lg">
+                        <a style="color: white; text-decoration: none;"
+                            href="https://www.linkedin.com/in/collin-marone/" target="_blank">LinkedIn</a>
+                    </button>
+                </li>
 
-    <!--------------------------------------------------------->
+                <li class="nav-item">
+                    <button type="button" class="btn btn-primary btn-lg">
+                        <a style="color: white; text-decoration: none;" href="https://github.com/cmmarone"
+                            target="_blank">GitHub</a>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modelId">
+                        About Me
+                    </button>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="dropdown-toggle btn btn-primary btn-lg" id="dropdownId" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">R&eacute;sum&eacute;</button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" data-toggle="modal" data-target="#modelId2" href="assets/resume.pdf">View</a>
+                        <a class="dropdown-item" href="assets/Collin-Marone-resume.docx"
+                            download="Collin-Marone-Resume">Download</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
     <!--ABOUT ME----------------------------------------------->
-    <!--------------------------------------------------------->
+    <!------------------------------------------------------>
 
     <!-- Modal -->
     <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
@@ -114,9 +144,9 @@
     </div>
 
 
-    <!--------------------------------------------------------->
+
     <!--RESUME------------------------------------------------->
-    <!--------------------------------------------------------->
+    <!------------------------------------------------------>
 
     <!-- Modal -->
     <div class="modal fade" id="modelId2" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
@@ -136,9 +166,8 @@
         </div>
     </div>
 
-    <!--------------------------------------------------------->
     <!--PROJECTS----------------------------------------------->
-    <!--------------------------------------------------------->
+    <!------------------------------------------------------>
     <div class="row">
         <div class="col">
             <h1 class="projectsTitle">PROJECTS</h1>
@@ -216,9 +245,9 @@
         </div>
     </div>
 
-    <!--------------------------------------------------------->
+
     <!--CONTACT FORM------------------------------------------->
-    <!--------------------------------------------------------->
+    <!------------------------------------------------------>
     <div class="row">
         <div class="col">
             <form action="https://formspree.io/f/xwkaovrz" method="POST" class="contact-form">
@@ -230,9 +259,8 @@
         </div>
     </div>
 
-    <!--------------------------------------------------------->
     <!--FOOTER------------------------------------------------->
-    <!--------------------------------------------------------->
+    <!------------------------------------------------------>
     <footer>
         <nav class="navbar navbar-expand navbar-light bg-light">
             <div class="nav navbar-nav">
