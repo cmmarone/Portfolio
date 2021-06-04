@@ -1,6 +1,6 @@
 body{
     /* background: linear-gradient(180deg, rgb(221, 217, 248) 0%, rgb(142, 193, 252) 57%, rgb(53, 129, 252) 100%); */
-    background: linear-gradient(180deg, rgb(0, 0, 0) 10%, rgb(88, 155, 231) 57%, rgb(0, 0, 0) 100%);
+    background: linear-gradient(180deg, rgb(0, 0, 0) 10%, rgb(38, 80, 128) 57%, rgb(0, 0, 0) 100%);
 }
 
 .row{
@@ -63,7 +63,7 @@ li{
     margin-right: 10px;
 }
 
-.modal-content{
+/* .modal-content{
     width: 1000px;
     height: 500px;
 }
@@ -71,7 +71,18 @@ li{
 .modal-content2{
     width: 826px;
     height: 1270px;
+} */
+
+.modal-content{
+    width: auto;
+    height: auto;
 }
+
+.modal-content2{
+    width: auto;
+    height: auto;
+}
+
 
 .pic{
     max-height: 390px;
@@ -97,15 +108,32 @@ li{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
-.card-body{
-    background-size: cover;
-    opacity: .5;
-    transition: 0.6s;
+.card-anchor{
+    height: 100%;
+    color: white; 
+    text-decoration: none;
 }
 
-.card-body:hover{
-    opacity: 1;
-    transition: 0.6s;
+
+@media only screen and (max-width: 600px){
+    .card-body{
+        background-size: cover;
+        opacity: 1;
+        transition: 0.6s;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .card-body{
+        background-size: cover;
+        opacity: .8;
+        transition: 0.6s;
+    }
+
+    .card-body:hover{
+        opacity: 1;
+        transition: 0.6s;
+    }
 }
 
 .card-title{
@@ -133,15 +161,20 @@ li{
 
 .card1{
     background-image: url("assets/monthleyPreview.png");
+    height: 348px;
 }
+
 .card2{
     background-image: url("assets/oneNewsPreview.png");
+    height: 348px;
 }
 .card3{
     background-image: url("assets/consoleChallengesPreview.png");
+    height: 348px;
 }
 .card4{
     background-image: url("assets/creaturePreview.png");
+    height: 348px;
 }
 
 
